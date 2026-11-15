@@ -1,0 +1,11 @@
+pandas
+numpy
+openpyxl
+rapidfuzz
+lifelines
+statsmodels
+patsy
+matplotlib
+indiapins
+esda
+libpysal

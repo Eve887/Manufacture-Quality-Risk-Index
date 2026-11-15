@@ -1,0 +1,12 @@
+# Python cache
+__pycache__/
+*.pyc
+# raw downloads and checkpoints (re-created by the downloaders)
+cdsco_alerts/
+cdsco_nsq_portal/
+*.zip
+checkpoint.json
+# secrets, if ever added
+.env
+# Excel temporary files
+~$*.xlsx
