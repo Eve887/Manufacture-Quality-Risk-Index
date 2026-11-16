@@ -42,6 +42,7 @@ This project turns 6,835 public CDSCO "Not of Standard Quality" (NSQ) alert rows
 - `CDSCO_NSQ_Project_Workbook.xlsx`: all tables (see the first sheet for a data dictionary).
 - `charts/`: 1 top factories, 2 alerts by year and source, 3 failure categories, 4 risk tiers, 5 time until next failure, 6 hotspot map.
 - `METHODS_NOTE.md`: how everything was made, and the limits.
+- `data/`: every step's data, from the original CDSCO download to the analysis outputs, with its own README explaining each file. How the data flows: **download → split names → match factories → score and analyse → final workbook**. Also includes the superseded first version of the name-splitting step (3,954 rows left for manual review, reduced to 95 in version 2).
 - `code/`: the scripts, in the order: downloaders -> `cdsco_manufacturer_parser_v2.py` -> `cdsco_factory_matcher.py` -> `cdsco_analysis.py` -> `cdsco_count_model.py` -> `cdsco_hotspots.py` -> `cdsco_package.py`.
 
 Built 2026-11-02.

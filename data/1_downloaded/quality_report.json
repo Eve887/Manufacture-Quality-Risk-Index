@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-10-23T20:02:22",
+  "tables": {
+    "nsq": {
+      "months_discovered": 93,
+      "months_done": 93,
+      "months_failed": 0,
+      "failed_months": [],
+      "total_rows": 6956,
+      "blank_critical_field_counts": {
+        "str_product_name": 0,
+        "str_batch_no": 0,
+        "str_manufactured_by": 0
+      }
+    },
+    "spurious": {
+      "months_discovered": 15,
+      "months_done": 15,
+      "months_failed": 0,
+      "failed_months": [],
+      "total_rows": 49,
+      "blank_critical_field_counts": {
+        "product_name_from_dtl": 0,
+        "str_batch_no": 0
+      }
+    }
+  }
+}
